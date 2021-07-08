@@ -19,6 +19,7 @@ const Recipe = () => {
    setLoading(false)
   }
   fetchData();
+  // eslint-disable-next-line
  }, [loading])
 
  const handleSubmit = (e) => {
